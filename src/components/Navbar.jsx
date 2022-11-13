@@ -8,8 +8,16 @@ export default function Navbar() {
   const [modalState, setModalState] = useState(false);
 
   return (
-    <header className="flex items-center justify-between gap-14 px-6 py-6 w-full mx-auto max-w-[1240px] lg:gap-0 lg:py-[2.9rem] xl:px-0 ">
-      <img className="w-44 lg:w-60" src={logo} alt="logo" />
+    <header
+      data-aos="fade-in"
+      className="flex items-center justify-between gap-14 px-6 py-6 w-full mx-auto max-w-[1240px] lg:gap-0 lg:py-[2.9rem] xl:px-0 "
+    >
+      <img
+        data-aos="fade-right"
+        className="w-44 lg:w-60"
+        src={logo}
+        alt="logo"
+      />
 
       <nav
         className={`
@@ -58,8 +66,8 @@ export default function Navbar() {
           <button
             className="px-7 py-[13px] text-white rounded-xl bg-gradient-to-t from-[#a02279] to-[#a02279] w-fit hover:opacity-90 lg:hidden"
             onClick={() => {
-              setMenuState(prevState => !prevState)
-              setModalState(prevState => !prevState);
+              setMenuState((prevState) => !prevState);
+              setModalState((prevState) => !prevState);
             }}
           >
             Connect wallet
@@ -68,14 +76,16 @@ export default function Navbar() {
       </nav>
 
       <button
+        data-aos="fade-left"
         className="px-7 py-[13px] text-center hidden lg:inline-block text-white rounded-xl bg-gradient-to-t from-[#a02279] to-[#a02279] w-fit hover:opacity-90"
-        onClick={() => setModalState(prevState => !prevState)}
+        onClick={() => setModalState((prevState) => !prevState)}
       >
         Connect wallet
       </button>
 
       {/* hamburger icon */}
       <div
+        data-aos="fade-left"
         className="cursor-pointer lg:hidden"
         onClick={() => setMenuState((prevState) => !prevState)}
       >
@@ -83,7 +93,7 @@ export default function Navbar() {
         <span className="w-6 h-[3px] my-[3px] block bg-black"></span>
         <span className="w-6 h-[3px] block bg-black"></span>
       </div>
-      { modalState ? <Modal setModalState={setModalState} /> : null }
+      {modalState ? <Modal setModalState={setModalState} /> : null}
     </header>
   );
 }

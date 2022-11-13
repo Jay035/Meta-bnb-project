@@ -8,9 +8,15 @@ import NFTs from "../components/NFTs";
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col gap-[4.19rem] mt-16 lg:mt-[7.8rem]">
+      <div
+        data-aos="fade-up"
+        className="flex flex-col gap-[4.19rem] mt-16 lg:mt-[7.8rem]"
+      >
         <section className="grid place-content-between items-center gap-20 w-11/12 mx-auto md:grid-cols-2 lg:max-w-[900px] lg:w-full xl:max-w-[1221px]">
-          <div className="flex flex-col gap-4 text-center text-[#434343] text-lg md:gap-8 md:text-left xl:gap-12">
+          <div
+            data-aos="fade-right"
+            className="flex flex-col gap-4 text-center text-[#434343] text-lg md:gap-8 md:text-left xl:gap-12"
+          >
             <h1 className="text-3xl lg:text-[3.5rem] font-medium tracking-tight leading-[140%]">
               Rent a <span className="text-[#A02279] font-semibold">Place</span>{" "}
               away from{" "}
@@ -35,10 +41,18 @@ export default function Home() {
               />
             </form>
           </div>
-          <img className="w-full" src={heroImg} alt="hero img" />
+          <img
+            data-aos="fade-left"
+            className="w-full"
+            src={heroImg}
+            alt="hero img"
+          />
         </section>
 
-        <section className="flex justify-around items-center py-[10px] bg-[#A02279]">
+        <section
+          data-aos="fade-up"
+          className="flex justify-around items-center py-[10px] bg-[#A02279]"
+        >
           <img
             className="w-[26%] md:w-[15%]"
             src={MBTokenLogo}

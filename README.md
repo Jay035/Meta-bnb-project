@@ -1,4 +1,5 @@
 # Meta-bnb-project
+
 HNG Internship task
 
 [Click here to view the live site](http://meta-bnb-project.vercel.app/)
@@ -12,7 +13,7 @@ HNG Internship task
 - [Tailwind CSS](https://tailwindCSS.com)
 - Vite + React JS
 - [React JS](https://reactjs.org/)
-/* - [AOS On Scroll Animation Library](https://michalsnik.github.io/aos/) */
+- [AOS On Scroll Animation Library](https://michalsnik.github.io/aos/)
 
 ## Developer Info
 
