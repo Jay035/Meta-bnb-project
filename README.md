@@ -11,7 +11,7 @@ HNG Internship task
 ## Technologies used
 
 - [Tailwind CSS](https://tailwindCSS.com)
-- Vite + React JS
+- [Vite](https://vitejs.dev/)
 - [React JS](https://reactjs.org/)
 - [AOS On Scroll Animation Library](https://michalsnik.github.io/aos/)
 
