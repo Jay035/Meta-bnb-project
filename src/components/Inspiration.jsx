@@ -1,11 +1,10 @@
 import { Data } from "./Data";
-import img4 from "../assets/inspiration-images/4.png";
 import stars from "../assets/inspiration-images/stars.png";
 
 export default function Inspiration() {
   console.log(Data);
   return (
-    <section className="m-10 lg:p-[6.25rem] ">
+    <section className="my-[3.625rem] mx-10 lg:mx-[6.25rem] ">
       <h1 className="text-3xl md:text-4xl lg:text-5xl text-center text-black font-bold">
         Inspiration for your next adventure
       </h1>

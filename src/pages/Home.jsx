@@ -3,6 +3,7 @@ import MBTokenLogo from "../assets/Hero-section/MBToken-logo.svg";
 import MetamaskLogo from "../assets/Hero-section/Metamask-logo.svg";
 import OpenSeaLogo from "../assets/Hero-section/Opensea-logo.svg";
 import Inspiration from "../components/Inspiration";
+import NFTs from "../components/NFTs";
 
 export default function Home() {
   return (
@@ -39,23 +40,24 @@ export default function Home() {
 
         <section className="flex justify-around items-center py-[10px] bg-[#A02279]">
           <img
-            className="w-[20%] md:w-[15%]"
+            className="w-[26%] md:w-[15%]"
             src={MBTokenLogo}
             alt="MBToken logo"
           />
           <img
-            className="w-[20%] md:w-[15%]"
+            className="w-[26%] md:w-[15%]"
             src={MetamaskLogo}
             alt="Metamask logo"
           />
           <img
-            className="w-[20%] md:w-[15%]"
+            className="w-[26%] md:w-[15%]"
             src={OpenSeaLogo}
             alt="opensea logo"
           />
         </section>
       </div>
       <Inspiration />
+      <NFTs />
     </>
   );
 }

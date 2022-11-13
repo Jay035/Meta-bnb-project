@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Community from "./pages/Community";
 import Home from "./pages/Home";
@@ -10,7 +11,6 @@ function App() {
     <Router>
       <div className="text-base font-RedRose">
         <Navbar />
-      </div>
 
       <Routes>
         <Route exact path="/" element={<Home />} />
@@ -18,6 +18,8 @@ function App() {
         <Route path="/NFTs" element={<NFT />} />
         <Route path="/community" element={<Community />} />
       </Routes>
+      <Footer />
+      </div>
     </Router>
   );
 }
