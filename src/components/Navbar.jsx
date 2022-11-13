@@ -4,6 +4,7 @@ import logo from "../assets/logo.svg";
 
 export default function Navbar() {
   const [menuShown, setMenuShown] = useState(false);
+  const [modalState, setModalState] = useState(false);
 
   return (
     <header className="flex items-center justify-between gap-14 px-6 py-6 w-full mx-auto max-w-[1240px] lg:gap-0 lg:py-[2.9rem] xl:px-0 ">
@@ -52,6 +53,7 @@ export default function Navbar() {
           <a
             href=""
             className="px-7 py-[13px] text-white rounded-xl bg-gradient-to-t from-[#a02279] to-[#a02279] w-fit hover:opacity-90 lg:hidden"
+            onClick={() => setModalState(prevState => !prevState)}
           >
             Connect wallet
           </a>
@@ -61,6 +63,7 @@ export default function Navbar() {
       <a
         href=""
         className="px-7 py-[13px] text-center hidden lg:inline-block text-white rounded-xl bg-gradient-to-t from-[#a02279] to-[#a02279] w-fit hover:opacity-90"
+        onClick={() => setModalState(prevState => !prevState)}
       >
         Connect wallet
       </a>
@@ -74,6 +77,7 @@ export default function Navbar() {
         <span className="w-6 h-[3px] my-[3px] block bg-black"></span>
         <span className="w-6 h-[3px] block bg-black"></span>
       </div>
+      { modalState ? <Modal /> : null }
     </header>
   );
 }
