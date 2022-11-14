@@ -14,7 +14,7 @@ function App() {
 
   return (
     <Router>
-      <div className="text-base font-RedRose">
+      <div className="text-base font-RedRose scroll-smooth overflow-x-hidden">
         <Navbar />
 
         <Routes>

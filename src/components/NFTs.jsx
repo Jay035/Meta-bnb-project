@@ -18,7 +18,7 @@ export default function NFTs() {
           gift cards which are traded as NFTs. These NFTs gives our cutomer
           access to loads of our exclusive services.
         </p>
-        <button className="px-6 py-1 md:px-[2.1rem] md:py-2 lg:py-[0.8rem] w-fit bg-white rounded-lg leading-5 text-center">
+        <button className="px-6 py-1 md:px-[2.1rem] md:py-2 lg:py-[0.8rem] w-fit bg-white rounded-lg leading-5 text-center hover:opacity-80">
           <a
             href=""
             className="text-transparent leading-[35px] bg-clip-text bg-[#A02279]"

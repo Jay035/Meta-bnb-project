@@ -1,6 +1,6 @@
 
 export default function Community() {
   return (
-    <div>Community</div>
+    <div className="h-screen">Community</div>
   )
 }

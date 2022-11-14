@@ -1,6 +1,6 @@
 
 export default function NFT() {
   return (
-    <div>NFT</div>
+    <div className="h-screen">NFT</div>
   )
 }
