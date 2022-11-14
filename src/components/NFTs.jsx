@@ -13,7 +13,7 @@ export default function NFTs() {
         <h1 className="text-2xl md:text-4xl lg:text-5xl text-transparent leading-[60px] bg-clip-text bg-white font-bold">
           Metabnb NFTs
         </h1>
-        <p className="text-transparent leading-[35px] bg-clip-text bg-white">
+        <p className="text-transparent leading-[35px] bg-clip-text bg-white ">
           Discover our NFT gift cards collection. Loyal customers gets amazing
           gift cards which are traded as NFTs. These NFTs gives our cutomer
           access to loads of our exclusive services.
