@@ -10,7 +10,11 @@ export default function Home() {
     <main>
       <div
         data-aos="fade-up"
+<<<<<<< HEAD
         className="flex flex-col overflow-x-hidden gap-[4.19rem] mt-16 lg:mt-[7.8rem]"
+=======
+        className="flex flex-col gap-[4.19rem] mt-16 lg:mt-[7.8rem] overflow-x-hidden"
+>>>>>>> a438e0e352acfabfd7619d5278dab5bd5dfbd474
       >
         <section className="grid place-content-between items-center gap-20 w-11/12 mx-auto md:grid-cols-2 lg:max-w-[900px] lg:w-full xl:max-w-[1221px]">
           <div
