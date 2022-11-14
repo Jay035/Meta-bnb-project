@@ -87,7 +87,7 @@ export default function Footer() {
         </section>
       </div>
 
-      <p className="flex items-center gap-2">
+      <p data-aos="fade-left" className="flex items-center gap-2">
         <img src={copyrightIcon} alt="copyright icon" />
         <span className="text-[#F7F7F7]">2022 Metabnb</span>
       </p>

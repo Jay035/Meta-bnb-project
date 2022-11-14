@@ -7,14 +7,11 @@ import NFTs from "../components/NFTs";
 
 export default function Home() {
   return (
-    <main>
+    <>
       <div
         data-aos="fade-up"
-<<<<<<< HEAD
         className="flex flex-col overflow-x-hidden gap-[4.19rem] mt-16 lg:mt-[7.8rem]"
-=======
-        className="flex flex-col gap-[4.19rem] mt-16 lg:mt-[7.8rem] overflow-x-hidden"
->>>>>>> a438e0e352acfabfd7619d5278dab5bd5dfbd474
+
       >
         <section className="grid place-content-between items-center gap-20 w-11/12 mx-auto md:grid-cols-2 lg:max-w-[900px] lg:w-full xl:max-w-[1221px]">
           <div
@@ -36,7 +33,7 @@ export default function Home() {
               <input
                 type="text"
                 placeholder="Search for location"
-                className="outline-none py-4 px-[15px] w-full bg-[rgba(247, 247, 247, 0.1)] rounded-l-lg border border-[#A3A3A3] leading-[130%]"
+                className="outline-none py-4 pl-[15px] w-full bg-[rgba(247, 247, 247, 0.1)] rounded-l-lg border border-[#A3A3A3] leading-[130%]"
               />
               <input
                 type="button"
@@ -54,7 +51,7 @@ export default function Home() {
         </section>
 
         <section
-          data-aos="fade-in"
+          data-aos="fade-up"
           className="flex justify-around items-center py-[10px] bg-[#A02279]"
         >
           <img
@@ -76,6 +73,6 @@ export default function Home() {
       </div>
       <Inspiration />
       <NFTs />
-    </main>
+    </>
   );
 }
