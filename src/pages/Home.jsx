@@ -11,7 +11,6 @@ export default function Home() {
       <div
         data-aos="fade-up"
         className="flex flex-col overflow-x-hidden gap-[4.19rem] mt-16 lg:mt-[7.8rem]"
-
       >
         <section className="grid place-content-between items-center gap-20 w-11/12 mx-auto md:grid-cols-2 lg:max-w-[900px] lg:w-full xl:max-w-[1221px]">
           <div
@@ -51,7 +50,7 @@ export default function Home() {
         </section>
 
         <section
-          data-aos="fade-up"
+          data-aos="fade-in"
           className="flex justify-around items-center py-[10px] bg-[#A02279]"
         >
           <img
