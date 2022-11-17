@@ -32,7 +32,7 @@ export default function Navbar() {
         {/* Menu */}
         <div className="relative flex flex-col pt-8 pl-6 bg-white h-screen w-3/4 lg:pt-0 lg:pl-0 lg:w-fit lg:h-fit lg:flex-row lg:items-center">
           <i
-            className="ri-close-fill cursor-pointer absolute top-0 right-6 pt-8 text-5xl w-fit h-fit lg:hidden"
+            className="ri-close-fill cursor-pointer absolute top-0 right-6 pt-8 text-4xl w-fit h-fit lg:hidden"
             onClick={() => setMenuState((prevState) => !prevState)}
           ></i>
           <ul className="relative top-16 flex flex-col gap-6 md:text-xl lg:top-0 lg:flex-row lg:gap-12">
